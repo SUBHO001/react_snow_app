@@ -25,6 +25,27 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <!-- //START token code -->
+    <!-- 
+      ServiceNow code to retrieve a session token.
+      It will be executed only when deployed into ServiceNow,
+      for local development it will be hidden on a page.
+    -->
+    <div style="display: none">
+      <g:evaluate object="true">
+        var session = gs.getSession(); var token = session.getSessionToken(); if
+        (token=='' || token==undefined) token = gs.getSessionToken();
+      </g:evaluate>
+    </div>
+    <!-- 
+      We need to pass the token to React app.
+      Simple way to pass the data - store it as 
+      a property on window object.
+    -->
+    <script>
+      window.servicenowUserToken = '$[token]';
+    </script>
+    <!-- //END token code -->
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

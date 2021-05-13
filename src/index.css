@@ -10,7 +10,8 @@ body {
 
 h1,
 h2 {
-  color: #333333;
+  color: #ffffff;
+  background-color: #155724;
 }
 
 .btn {
@@ -39,11 +40,11 @@ h2 {
 }
 
 .card {
-  background-color: white;
+  background-color: rgb(129, 196, 228);
   border-radius: 4px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   padding: 1rem;
-  width: 20rem;
+  width: 70rem;
 }
 
 .actions {
