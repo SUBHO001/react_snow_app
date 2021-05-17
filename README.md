@@ -26,6 +26,7 @@ We need 3 files:
 ## Getting the incident data
 
 Used Axios npm package to do a REST get call to the incident table. [Axios](https://www.npmjs.com/package/axios)
+Used Rewire for packaging. [Rewire](https://www.npmjs.com/package/rewire)
 
 Tried using session token to use in production, but did not work. Need to used OAuth service to set it up. 
 
@@ -35,6 +36,13 @@ Create a Scripted Rest API. Make 2 resources 1 entry point and another resources
 
 Within the index.html call the .css and .js with proper path and also use '%20' in the end. ServiceNow does not take .css and .js as path parameters.
 
+
+
 ## References
+[Modern web development in ServiceNow: React, Vue, and Angular](https://www.youtube.com/watch?v=YA9kOuobdzA)
+[React application in ServiceNow](https://pishchulin.medium.com/react-application-in-servicenow-8bdbb1e69c0c)
+https://pishchulin.medium.com/react-in-servicenow-applications-advanced-3e1966fbb817
+https://pishchulin.medium.com/react-in-servicenow-how-to-access-the-data-a8cc4fae3912
+
 
 
