@@ -36,13 +36,22 @@ Create a Scripted Rest API. Make 2 resources 1 entry point and another resources
 
 Within the index.html call the .css and .js with proper path and also use '%20' in the end. ServiceNow does not take .css and .js as path parameters.
 
+Scripts->
+![Entry point](https://github.com/SUBHO001/react_snow_app_1/blob/master/Snaps/Entry%20point%20code.JPG)
+![Resources](https://github.com/SUBHO001/react_snow_app_1/blob/master/Snaps/Resource%20code.JPG)
+
+Work in progress->
+![landing page](https://github.com/SUBHO001/react_snow_app_1/blob/master/Snaps/landing%20page.JPG)
 
 
 ## References
 [Modern web development in ServiceNow: React, Vue, and Angular](https://www.youtube.com/watch?v=YA9kOuobdzA)
+
 [React application in ServiceNow](https://pishchulin.medium.com/react-application-in-servicenow-8bdbb1e69c0c)
-https://pishchulin.medium.com/react-in-servicenow-applications-advanced-3e1966fbb817
-https://pishchulin.medium.com/react-in-servicenow-how-to-access-the-data-a8cc4fae3912
+
+[React in ServiceNow applications (advanced)](https://pishchulin.medium.com/react-in-servicenow-applications-advanced-3e1966fbb817)
+
+[React in ServiceNow: how to access the data](https://pishchulin.medium.com/react-in-servicenow-how-to-access-the-data-a8cc4fae3912)
 
 
 
