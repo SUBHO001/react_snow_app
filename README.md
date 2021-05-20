@@ -1,3 +1,8 @@
+## Summary
+
+Hosting a ReactJS app on ServiceNow as the backend. Using the the OOB incident table to display records on the UI side.
+
+
 ## Create React App
 Use CRA to setup a Reat template fast - https://reactjs.org/docs/create-a-new-react-app.html
 
