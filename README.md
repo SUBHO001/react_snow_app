@@ -4,7 +4,7 @@ Hosting a ReactJS app on ServiceNow as the backend. Using the the OOB incident t
 
 https://dev101615.service-now.com/api/424420/react_app_incidents
 
-admin:bwN4cqX3yQOT
+
 
 ## Create React App
 Use CRA to setup a Reat template fast - https://reactjs.org/docs/create-a-new-react-app.html
